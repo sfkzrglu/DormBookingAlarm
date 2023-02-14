@@ -10,7 +10,7 @@ gotResult=False
 options = webdriver.ChromeOptions()
 options.add_argument('headless')
 driver = webdriver.Chrome('chromedriver',chrome_options=options) 
-
+#the website is not shared publicly
 driver.get('website')
 
 time.sleep(2)
